@@ -1,0 +1,159 @@
+// FOOTER SCSS FILE
+.footer_section {
+  // border: 1px solid red;
+  background-color: rgb(45 49 78);
+  margin-top: 90px;
+}
+
+.footer_element {
+  // background-color: #191919;
+  height: 200px;
+  // border: 2px solid orange;
+}
+
+.footer_container {
+  // border: 1px solid red;
+
+  margin-top: 20px;
+
+  display: grid;
+  grid-template-columns: 25% 35% 40%;
+  gap: 10px;
+  bottom: 0;
+  margin: auto;
+  width: 85%;
+}
+
+// FOOTER LOGO
+.footer_logo {
+  //   border: 1px solid red;
+}
+
+// social_footer
+.social_footer {
+  //   border: 1px solid red;
+}
+
+.footer_element_logo {
+  width: 100%;
+  //   background-color: #191919;
+  height: 200px;
+  // border: 2px solid orange;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer_element_logo .social_footer {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+// footer_element_about
+.footer_element_about {
+  width: 100%;
+  //   background-color: #191919;
+  // border: 2px solid orange;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  color: white;
+  justify-items: center;
+  align-items: center;
+}
+
+// top_footer_ul
+.top_footer_ul {
+  height: 100%;
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+// bottom_footer_ul
+.bottom_footer_ul {
+  // border: 1px solid black;
+  height: 100%;
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+// footer_element_btn
+.footer_element_btn {
+  background-color: rgb(45 49 78);
+  height: 200px;
+  // border: 2px solid orange;
+
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+
+  button {
+    background: linear-gradient(to right, #33cc33 0%, #00cc66 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    width: 150px;
+  }
+
+  p {
+    color: white;
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+  }
+}
+
+.logo_footer {
+  color: white;
+}
+
+.logo_bank_p {
+  color: white;
+  font-size: 20px;
+  width: 160px;
+  text-align: center;
+  font-style: italic;
+  background-color: #00cc66;
+  border-radius: 10px;
+  padding: 5px;
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .social_footer {
+    gap: 20px;
+  }
+
+  .footer_element_btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
