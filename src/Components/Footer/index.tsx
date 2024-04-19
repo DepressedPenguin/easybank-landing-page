@@ -1,7 +1,5 @@
 import styles from "./footer.module.scss";
 
-// FOOTER LOGO
-import logo from "../../assets/imgs/logo.svg";
 // MEDIA ICONS
 import facebook_icon from "../../assets/Media_icons/icon-facebook.svg";
 import youtube_icon from "../../assets/Media_icons/icon-youtube.svg";
