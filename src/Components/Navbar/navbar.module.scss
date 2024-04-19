@@ -9,6 +9,7 @@
 .sub_nav {
   width: 90%;
   color: white;
+  cursor: pointer;
   margin: auto;
   margin-top: 10px;
 
@@ -38,6 +39,7 @@
 .ul_nav {
   height: 100%;
   color: grey;
+  cursor: pointer;
   font-weight: 500;
   gap: 25px;
   margin-right: 20px;
@@ -60,6 +62,7 @@
     background: linear-gradient(to right, #33cc33 0%, #00cc66 100%);
     color: white;
     font-weight: 700;
+    cursor: pointer;
     width: 180px;
     height: 40px;
     border-radius: 20px;
